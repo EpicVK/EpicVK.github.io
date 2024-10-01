@@ -1,0 +1,81 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d1f21;
+    color: white;
+    margin: 0;
+  }
+  
+  /* Sidebar Styling */
+  .sidebar {
+    width: 300px;
+    background-color: #2e2e2e;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .contact-info p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .fa {
+    margin-right: 10px;
+  }
+  
+  /* Main Content */
+  .main-content {
+    margin-left: 320px;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  .service {
+    background-color: #3e3e3e;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+  }
+  
+  .service p {
+    font-size: 16px;
+  }
+  
